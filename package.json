@@ -1,0 +1,54 @@
+{
+  "name": "broccoli-more-css",
+  "version": "0.1.0",
+  "description": "CSS minifier for Broccoli, using more-css",
+  "license": "MIT",
+  "repository": "artificialio/broccoli-more-css",
+  "author": {
+    "name": "Markus Padourek",
+    "email": "markus@artificial.io"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "lint": "jshint *.js test/*.js --reporter node_modules/jshint-stylish/stylish",
+    "build": "rm -rf test/actual && broccoli build test/actual",
+    "pretest": "${npm_package_scripts_lint} & npm run-script build",
+    "test": "mocha"
+  },
+  "files": [
+    "index.js",
+    "LICENSE"
+  ],
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/artificialio/broccoli-more-css/issues"
+  },
+  "homepage": "https://github.com/artificialio/broccoli-more-css",
+  "keywords": [
+    "broccoli-plugin",
+    "css",
+    "more",
+    "more-css",
+    "minifier",
+    "minify",
+    "minification",
+    "compress",
+    "postprocess",
+    "optimization",
+    "optimize"
+  ],
+  "dependencies": {
+    "broccoli-filter": "^0.1.10",
+    "more-css": "^0.8.1"
+  },
+  "devDependencies": {
+    "broccoli": "^0.13.3",
+    "broccoli-cli": "0.0.1",
+    "jshint": "^2.5.6",
+    "jshint-stylish": "^1.0.0",
+    "mocha": "^2.0.1",
+    "rimraf": "^2.2.8"
+  }
+}
