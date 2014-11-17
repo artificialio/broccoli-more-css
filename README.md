@@ -1,6 +1,6 @@
 # broccoli-more-css
 
-[![NPM version](https://badge.fury.io/js/broccoli-clean-css.svg)](https://www.npmjs.org/artificialio/broccoli-more-css)
+[![NPM version](https://badge.fury.io/js/broccoli-more-css.svg)](https://www.npmjs.org/package/broccoli-more-css)
 [![Build Status](https://travis-ci.org/shinnn/broccoli-clean-css.svg?branch=master)](https://travis-ci.org/artificialio/broccoli-more-css)
 [![Dependency Status](https://david-dm.org/shinnn/broccoli-clean-css.svg?theme=shields.io)](https://david-dm.org/artificialio/broccoli-more-css)
 [![devDependency Status](https://david-dm.org/shinnn/broccoli-clean-css/dev-status.svg?theme=shields.io)](https://david-dm.org/artificialio/broccoli-more-css#info=devDependencies)
