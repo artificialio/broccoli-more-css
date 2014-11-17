@@ -5,7 +5,7 @@
 [![Dependency Status](https://david-dm.org/shinnn/broccoli-clean-css.svg?theme=shields.io)](https://david-dm.org/artificialio/broccoli-more-css)
 [![devDependency Status](https://david-dm.org/shinnn/broccoli-clean-css/dev-status.svg?theme=shields.io)](https://david-dm.org/artificialio/broccoli-more-css#info=devDependencies)
 
-CSS minifier for [Broccoli](https://github.com/broccolijs/broccoli) with [more-css](https://github.com/army8735/more), which seems to lead to some of the best minification results: http://goalsmashers.github.io/css-minification-benchmark/
+CSS minifier for [Broccoli](https://github.com/broccolijs/broccoli) with [more-css](https://github.com/army8735/more), which generally seems to lead to some of the best minification results: http://goalsmashers.github.io/css-minification-benchmark/
 
 ## Installation
 
